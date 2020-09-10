@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <div class="topnav" id="mynav">
+      <div>
+      <a href="home.html">Home page</a>
+      <a href="index.html">Database Page</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Database</title>
+
+  <link rel="stylesheet" href="css/home.css">
+
+
+</head>
+
+
+<body>
+  <br></br><br></br>
+  <div class="fade-in-words">
+           <center><div class="first-words"><h1><b>Covid-19 dissemination alerts</b></div></center>
+  <div>
+  <script language =javascript >
+  var curIndex=0;
+  //时间间隔 单位毫秒
+  var timeInterval=3000;
+  var arr=new Array();
+  arr[0]="1.png";
+  arr[1]="2.png";
+  arr[2]="3.png";
+  arr[3]="4.png";
+
+  setInterval(changeImg,timeInterval);
+  function changeImg()
+  {
+      var obj=document.getElementById("obj");
+      if (curIndex==arr.length-1)
+      {
+          curIndex=0;
+      }
+      else
+      {
+          curIndex+=1;
+      }
+      obj.src=arr[curIndex];
+  }
+  </script>
+
+  <a href="https://www.news.com.au/"><img id=obj src ="1.png" border =5 />
+    <p>Click picture to read the details
+</div></a>
+
+</body>
+<footer>
+  <div class="second-words">  <p><h2>Since the first coronavirus case spotted in China on December 2019, The fight against the virus has been going on for more than half a year, mankind has been searching for cure and countermeasures, but things are not getting better.
+</div></div>
+    <center><img  src ="5.png" border =0 /></center>
+      <h4><script src="js/scripts1.js"></script>
+</footer>
+</html>
