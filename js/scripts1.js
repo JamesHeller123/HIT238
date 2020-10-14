@@ -1,4 +1,4 @@
-
+!
 function() {
     function n(n, e, t) {
         return n.getAttribute(e) || t
